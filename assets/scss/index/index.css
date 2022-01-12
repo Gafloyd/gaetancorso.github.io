@@ -1,0 +1,8 @@
+@import "../../../bootstrap.min.css";
+
+.card-header{
+  background: var(--primary);
+}
+.card-body{
+  background: #ebebeb;
+}

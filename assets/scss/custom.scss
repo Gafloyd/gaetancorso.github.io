@@ -1,0 +1,19 @@
+
+$body-bg: #000;
+$body-color: #111;
+
+
+
+
+
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+$theme-colors: (
+        "primary": #44a0ad80,
+        "secondary": #999999
+);
+.tt{
+  background: #218838 !important;
+  color: #0b2e13;
+}
