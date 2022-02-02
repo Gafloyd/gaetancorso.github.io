@@ -6,3 +6,13 @@
 .card-body{
   background: #ebebeb;
 }
+.date-separator{
+  font-weight: bold ;
+  border-bottom: 1px solid #999999;
+  margin-bottom: 10px;
+}
+button{
+  background: none;
+  border: none;
+}
+

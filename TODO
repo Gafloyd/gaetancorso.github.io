@@ -1,0 +1,32 @@
+Partie introductive
+Sur la page d'accueil, il est pertinent de trouver :
+[X] un titre vous représentant (exemple : "Étudiant en informatique, systèmes et réseaux")
+[X] votre nom (et si possible une photo) ;
+[X] un petit résumé sur vous (votre parcours, votre situation actuelle, vos objectifs...) ;
+[X] les liens vers : votre CV (téléchargeable au format PDF), votre profil sur les réseaux sociaux (LinkedIn,
+Twitter...) ;
+[X] un moyen de vous contacter directement (de préférence de manière sécurisée et non intrusive, accès à une page
+de contact) ;
+[X] un menu pour accéder aux autres parties du portfolio.
+
+
+------------------------------------------------------------------------
+
+C'est la partie la plus importante et c'est véritablement la partie "portfolio" puisque c'est là que vous présentez vos
+productions.
+Optez pour une présentation visuelle (par exemple, sous forme de vignettes cliquables pour accéder à plus
+d'informations).
+
+Classez vos réalisations (de préférence par catégories technologiques).
+Mettez en avant les réalisations les plus pertinentes (celles qui montrent vos compétences de plus haut niveau).
+Pour chaque réalisation professionnelle, il est conseillé de donner :
+[X] un titre explicite ;
+ une miniature visuelle (par exemple une copie d'écran) ;
+ la date de réalisation ;
+[X] la ou les technologies concernées (si possible avec le logo).
+
+Et si les informations précédentes ont été mises dans une vignette, le fait de cliquer dessus devrait permettre d'obtenir
+les informations complémentaires suivantes :
+[X] cadre de réalisation ;
+ description détaillée et illustrée (captures, schémas...) ;
+ si possible, lien vers le téléchargement de la production (GitHub ?) et/ou, dans le cadre d'un site, lien vers le site.
