@@ -1,19 +1,27 @@
 @import "../../../bootstrap.min.css";
-.card-header{
+
+.card-header {
     background: var(--primary);
 }
-.card-body{
+
+.card-body {
     background: #ebebeb;
 }
 
-.max-height-445{
+.max-height-445 {
     max-height: 445px;
 }
 
-.card-header-case, .card-body-sommmaire{
+.card-header-case, .card-body-sommmaire {
     background: initial;
 }
 
-.progress{
+.progress {
     background: #bdbdbd;
+}
+
+.list-outil {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
 }
