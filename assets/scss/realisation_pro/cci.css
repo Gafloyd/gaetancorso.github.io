@@ -7,3 +7,26 @@
     align-items: center;
     margin-top: 15px;
 }
+
+.sprint{
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
+
+.list-sprint{
+    list-style: none;
+    text-align: initial;
+}
+
+.separator{
+    margin-top: 5px;
+    margin-bottom: 9px;
+    height: 1px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.cci-doc{
+    height: 152px;
+}
