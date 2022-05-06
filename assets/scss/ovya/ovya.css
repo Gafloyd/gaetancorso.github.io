@@ -17,3 +17,9 @@
 .progress{
     background: #bdbdbd;
 }
+
+.list-outil {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}

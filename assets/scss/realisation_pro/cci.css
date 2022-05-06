@@ -1,0 +1,9 @@
+@import "../../../bootstrap.min.css";
+
+.img-logo-cci{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    margin-top: 15px;
+}

@@ -17,7 +17,7 @@
 </head>
 
 <body>
-<div class="container fixed-top">
+<div class="container fixed-top" id="nav">
     <div class="row">
         <div class="col-md-12">
             <div class="card">
@@ -73,7 +73,7 @@
         </div>
     </div>
 </div>
-<div class=" container">
+<div class=" container" id="page">
     <div class="row">
         <div class="col-md-9">
             <div class="card-group">
@@ -456,7 +456,11 @@
         integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
         crossorigin="anonymous"></script>
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-
+<script>
+    const h = document.getElementById("nav").offsetHeight + 10;
+    document.getElementById("page").setAttribute("style","margin-top : "+h+"px");
+    console.log(h)
+</script>
 </body>
 
 </html>
