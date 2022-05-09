@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="../assets/scss/realisation_pro/gsb.scss">
+    <link rel="stylesheet" href="../assets/scss/realisation_pro/gsb.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../bootstrap.min.css"
@@ -18,14 +18,137 @@
     </style>
     <title>Réalisation professionelle - GSB</title>
 </head>
-<body>
-<div id="topbar" style="margin-bottom: 130px"></div>
-
-</body>
-
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
+<body>
+<div id="topbar" style="margin-bottom: 130px"></div>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-md-3 img-logo-gsb">
+            <img class="card-img img-thumbnail float-left border-white "
+                    src="../assets/img/realisation-pro/gsb/gsb.png " style="margin-left: 5px">
+        </div>
+        <div class="col-md-9"><br/>
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5><i class="fas fa-mouse"></i> Contexte </h5>
+                </div>
+                <div class="card-body text-center">
+                    Le laboratoire Galaxy Swiss Bourdin (GSB) souhaite désormais entamer une transformation
+                    digitale efficace.
+                    Les visiteurs récupèrent une information directe sur le terrain. Ceci concerne aussi bien le niveau de
+                    la confiance qu'inspire le laboratoire que la lisibilité des notices d'utilisation des médicaments ou
+                    encore les éventuels problèmes rencontrés lors de leur utilisation, etc.
+                    Ces informations ne sont actuellement pas systématiquement remontées au siège, ou elles le sont dans
+                    des délais jugés trop longs. Le service rédaction qui produit les notices souhaite avoir des remontées
+                    plus régulières et directes. Ceci permettra également au service labo-recherche d’identifier et
+                    d’engager des évaluations complémentaires.
+                    Au moment de l’embauche d’un visiteur médicale, les ressources humaines doivent être capable de
+                    créer son compte utilisateur en renseignant ses informations.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5> Eléments déjà existant de l'application </h5>
+                </div>
+                <div class="card-body text-center">
+                    <div>
+                        L’application existante permet d’afficher la page d’accueil et une ébauche de menu est
+                        implémentée.
+                        Les API rest nécessaires pour réaliser la mission sont accessibles.
+                    </div>
+                    <div class="separator"></div>
+                    <img src="../assets/img/realisation-pro/cci/cci%20menu.png" height="513px">
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5> Quelles sont mes missions ? </h5>
+                </div>
+                <div class="card-body ">
+                    <h5 class="sprint">~Sprint 1~</h5>
+                    Lister les formations proposées par la CCI pour que l’utilisateur puisse les sélectionner et par
+                    conséquent lancer l’IHM détaillant la formation
+                    <h5 class="sprint">~Sprint 2~</h5>
+                    Après la sélection d’une formation dans la liste, l’application doit afficher une
+                    page
+                    la décrivant.
+                    La page doit afficher :
+                    <ul class="list-sprint">
+                        <li>➢ L’intitulé de la formation</li>
+                        <li>➢ La date de début</li>
+                        <li>➢ La durée</li>
+                        <li>➢ L’image de présentation</li>
+                        <li>➢ Le lien vers une page internet décrivant la formation</li>
+                        <li>➢ Un bouton ou autre widget lançant la vidéo de présentation</li>
+                        <li>➢ Le texte de la description de la formation</li>
+                    </ul>
+                    <h5 class="sprint">~Sprint 3~</h5>
+                    La CCI souhaite pourvoir recevoir des messages des utilisateurs afin de répondre aux demandes
+                    d’information et de pouvoir évaluer l’impact de l’application.
+                    Pour ce faire vous devez créer un formulaire permettant à l’utilisateur de renseigner son nom, son
+                    prénom, son mail et de saisir un message.
+                    <h5 class="sprint">~Sprint 4~</h5>
+                    L’utilisateur doit pouvoir, sur la page « détail d’une formation », ajouter/supprimer la formation
+                    courantes de la liste des favorites. L’états de la liste des formations favorites doit être maintenu
+                    entre
+                    plusieurs exécution de l’application.
+                    Ajouter une entrée dans le menu, « favoris » permet d’afficher la liste des formations favorites et
+                    d’accéder au détail d’une formation, comme précédemment.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        <div class="col-md-7">
+            <div class="card ">
+                <div class="card-header text-center">
+                    <h5> Documentation du projet </h5>
+                </div>
+                <div class="card-body cci-doc ">
+                    <ul>
+                        <li>Présentation complète du contexte</li>
+                        <li>Présentation de l'existant et de l'expression des besoins</li>
+                        <li>Présentation du compte rendu d'activité</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-5">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5> Liens </h5>
+                </div>
+                <div class="card-body ">
+                    <ul>
+                        <li>Vidéo de présentation</li>
+                        <li>GitLab</li>
+                        <li>APK pour télécharger l'application <br>(sur mobile uniquement)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
         integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
         crossorigin="anonymous"></script>

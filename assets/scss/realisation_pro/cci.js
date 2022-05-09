@@ -1,1 +1,1 @@
-import "./cci.scss"
+import "./cci.css"
