@@ -5,3 +5,14 @@
     flex-direction: column;
     justify-content: space-around;
 }
+
+.list-sprint{
+    list-style: none;
+    text-align: initial;
+}
+
+.sprint{
+    text-decoration: underline;
+    font-style: italic;
+    text-align: center;
+}
