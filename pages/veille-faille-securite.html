@@ -27,7 +27,7 @@
     <div class="row">
         <div class="col-md-3">
             <h3> Veille sur Les Failles de sécurité. </h3>
-            <i class="fas fa-calendar-alt"></i> <span class="badge badge-secondary"> 27/11/2020 </span>
+            <i class="fas fa-calendar-alt"></i> <span class="badge badge-secondary"> 11/05/2022 </span>
             <img class="card-img img-thumbnail float-right " src="../assets/img/diapo-faille-securite/sec.jpg ">
         </div>
         <div class="col-md-9"><br/>
@@ -85,8 +85,12 @@
                                         <li><a href="https://www.microsoft.com/fr-fr/microsoft-365/excel"
                                                class="text-decoration-none">Un logiciel Tableur <span
                                                 class="text-secondary"> (Microsoft Excel par exemple)</span></a></li>
-                                        <li><a href="https://news.google.com/topstories?hl=fr&gl=FR&ceid=FR:fr"
-                                               class="text-decoration-none">Google News</a></li>
+                                        <li><a href="https://www.pearltrees.com/"
+                                               class="text-decoration-none">Pearltrees</a></li>
+                                        <li><a href="https://www.netvibes.com/fr"
+                                               class="text-decoration-none">NetVibes</a></li>
+                                        <li><a href="https://www.google.fr/alerts"
+                                               class="text-decoration-none">Google Alerte</a></li>
                                     </ul>
                                 </blockquote>
                             </div>
@@ -109,6 +113,18 @@
                                         <li>
                                             <a href="https://fr.wikipedia.org/wiki/Vuln%C3%A9rabilit%C3%A9_(informatique)"
                                                class="text-decoration-none"> Wikipédia </a></li>
+                                        <li>
+                                            <a href="hhttps://www.cnil.fr/professionnel"
+                                               class="text-decoration-none"> CNIL </a></li>
+                                        <li>
+                                            <a href="https://www.cisa.gov/uscert/"
+                                               class="text-decoration-none"> CERT-US </a></li>
+                                        <li>
+                                            <a href="https://www.ssi.gouv.fr/"
+                                               class="text-decoration-none"> ANSII </a></li>
+                                        <li>
+                                            <a href="https://owasp.org/"
+                                               class="text-decoration-none"> OWASP </a></li>
                                     </ul>
                                 </blockquote>
                             </div>
@@ -119,7 +135,7 @@
         </div>
         <div class="col-md-7">
             <div class="card-group">
-                <div class="card">
+                <div class="card" style="height: 942px">
                     <ul class="list-group list-group-flush ">
                         <li class="list-group-item">
                             <div class="card-header text-center">
@@ -214,7 +230,8 @@
                                     occasionnés : qui
                                     a exploité cette faille et pendant combien de temps. Car si elle a été
                                     officiellement découverte et
-                                    comblée il y a quelques jours, cette faille a été malencontreusement créée le
+                                    comblée en 2014, cette faille sur les serveurs OpenSSL a été malencontreusement
+                                    créée le
                                     31 décembre 2011…
 
                                 </blockquote>
@@ -226,6 +243,342 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header text-center">
+                    <h5>Présentation</h5>
+                </div>
+                <div class="card-body">
+                    <div class="card-body">
+                        <div class="container ">
+                            <div class="row">
+                                <div class="col-md-4 ">
+                                    <div class="card ">
+                                        <div class="card-header">
+                                            <h6> Sommaire </h6>
+                                        </div>
+                                        <div class="card-body card-body-sommmaire">
+                                            <nav id="navbar-example5" class="navbar navbar-light bg-light">
+                                                <nav class="nav nav-pills flex-column ">
+                                                    <a class="nav-link" href="#item-7">- Introduction -</a>
+                                                    <nav class="nav nav-pills flex-column">
+                                                        <a class="nav-link ml-3 my-1" href="#item-7-1">Outils
+                                                            utilisés</a>
+                                                    </nav>
+                                                    <a class="nav-link" href="#item-8">- Qu'est ce qu'une application
+                                                        web ? -</a>
+                                                    <nav class="nav nav-pills flex-column">
+                                                        <a class="nav-link ml-3 my-1" href="#item-8-1">Typologie des
+                                                            applications web</a>
+                                                        <a class="nav-link ml-3 my-1" href="#item-8-2">Architecture des
+                                                            applications web</a>
+                                                    </nav>
+                                                    <a class="nav-link" href="#item-9">- Principales failles d'une
+                                                        application Web -</a>
+                                                    <nav class="nav nav-pills flex-column">
+                                                        <a class="nav-link ml-3 my-1" href="#item-9-1">Owasp</a>
+                                                        <a class="nav-link ml-3 my-1" href="#item-9-2">Top 10 des
+                                                            failles de sécurité</a>
+                                                        <a class="nav-link ml-3 my-1" href="#item-9-3">Broken Access
+                                                            Control N°1 des failles 2021</a>
+                                                    </nav>
+                                                    <a class="nav-link" href="#item-10">- Solutions -</a>
+                                                </nav>
+                                            </nav>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card  " style="height: 702px">
+                                        <div class="card-body bg-light pre-scrollable">
+                                            <div data-spy="scroll" data-target="#navbar-example3"
+                                                 data-offset="0" style="height: 702px">
+                                                <br>
+                                                <h4 class="text-center" id="item-7">- Introduction -</h4>
+                                                <p class="text-justify">
+                                                    Depuis quelques années, développer un site web est devenu très
+                                                    accessible. De plus en plus de gens se lancent dans la réalisation
+                                                    de leur propre page. Mais très peu sont informés sur les
+                                                    vulnérabilités présentes dans leur réalisation (plus couramment
+                                                    appelées failles), et cela peut s'avérer très dangereux. Une faille
+                                                    est une faiblesse dans un code qui peut être exploitée pour
+                                                    détourner un site de sa fonction première. Le pirate va pouvoir
+                                                    récupérer des données confidentielles (comme les infos personnelles
+                                                    des inscrits) ou modifier le comportement du site. Mais
+                                                    heureusement, il est possible de se protéger de ces fameuses failles
+                                                    par diverses techniques.
+                                                </p>
+                                                <h5 class="text-center" id="item-7-1">Outils utilisés</h5>
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <img src="../assets/img/notions/pearltrees-icon.png"
+                                                             width="100%" style="margin-top: 7px ; margin-bottom: 7px">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <p class="text-justify text-secondary">
+                                                            <a href="https://www.pearltrees.com/">Pearltrees</a> est un
+                                                            service web de
+                                                            curation qui permet d'organiser, d'explorer et de partager
+                                                            des contenus numériques.Cela permet de stocker des éléments
+                                                            en ligne de façon organisée et afin d'être partagé à
+                                                            d’autres personnes.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <img src="../assets/img/notions/netvibes-icon.png"
+                                                             width="100%" style="margin-top: 7px ; margin-bottom: 7px">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <p class="text-justify text-secondary">
+                                                            <a href="https://www.netvibes.com/fr">Netvibes.com</a> est
+                                                            un agréagateur de flux RSS, qui permet de
+                                                            regrouper le contenu de tout site publiant des informations
+                                                            dans ces formats. Cela permet de récolter des données sur
+                                                            des sites pertinants de façon massive.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <br/>
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <img src="../assets/img/notions/google-alerte-logo.png"
+                                                             width="100%" style="margin-top: 7px ; margin-bottom: 7px">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <p class="text-justify text-secondary">
+                                                            <a href="https://www.google.fr/alerts">GoogleAlerte</a>
+                                                            permet d’avoir des notifications contenant un
+                                                            lien par mail lorsque dès mots clefs apparaissent dans des
+                                                            articles.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-3">
+                                                        <img src="../assets/img/diapo-faille-securite/zapier-logo.svg"
+                                                             width="100%" style="margin-top: 7px ; margin-bottom: 7px">
+                                                    </div>
+                                                    <div class="col-9">
+                                                        <p class="text-justify text-secondary">
+                                                            <a href="https://zapier.com/">Zappier</a>
+                                                            permet de mettre en place des webhooks sur ses sites
+                                                            partenaires. Cela nous permet notamment de recevoir des
+                                                            notifications personnalisés lors de certains changement sur
+                                                            notre smartsheet ou google sheet.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <br/>
+                                                <h4 class="text-center" id="item-8">- Qu'est ce qu'une application web ?
+                                                    -</h4>
+                                                <p class="text-justify">En informatique, une application web est une
+                                                    application manipulable
+                                                    directement en ligne grâce à un navigateur web et qui ne nécessite
+                                                    donc pas d'installation sur les machines clientes, contrairement aux
+                                                    applications mobiles. De la même manière que les sites web, une
+                                                    application web est généralement installée sur un serveur.</p>
+                                                <div class="d-flex justify-content-center">
+                                                    <img src="../assets/img/diapo-faille-securite/typologie-appli.png"
+                                                         height="260px">
+                                                </div>
+                                                <br>
+                                                <h5 class="text-center" id="item-8-1">Typologie des applications
+                                                    web</h5>
+                                                <p class="text-justify">
+                                                    Il existe deux formes de typologies des applications Web :<br>
+                                                <ul>
+                                                    <li class="text-justify">
+                                                        1. Orientée présentation, générant des pages contenant
+                                                        différents
+                                                        types de langage : HTML, SGML, XML, ... en réponse à̀ des
+                                                        requêtes.
+                                                        Les pages générées peuvent être statiques (pages html) ou
+                                                        dynamiques (pages contenant du code exécuté sur le serveur).
+                                                    </li>
+                                                    <br>
+                                                    <li class="text-justify"> 2. Orientée service, implémentant un point
+                                                        d’accès àun service
+                                                        via
+                                                        le Web. Ce service est souvent invoqué par une application
+                                                        orientée
+                                                        présentation. Ce sont typiquement des services métiers. On parle
+                                                        de
+                                                        transactions B-to-B.
+                                                    </li>
+                                                </ul>
+                                                </p>
+                                                <h5 class="text-center" id="item-8-2">Architecture des applications
+                                                    web</h5>
+                                                <p class="text-justify">
+                                                    L’architecture d’une application Web est dite « Architecture à
+                                                    3-tiers » ou « Architecture à 3 niveaux ». Elle se présente en 3
+                                                    couches :<br>
+                                                <ul>
+                                                    <li class="text-justify"> 1. Couche présentation : il s’agit de la
+                                                        partie de
+                                                        l'application responsable de la présentation des données, et de
+                                                        l'interaction avec l'utilisateur (application HTML exploitée par
+                                                        un navigateur Web ou WML pour être utilisée par un téléphone
+                                                        portable par exemple).
+                                                    </li>
+                                                    <br>
+                                                    <li class="text-justify">2. Couche métier : elle reçoit les requêtes
+                                                        utilisateur. Le
+                                                        serveur d'application fournit les traitements métiers. C'est là
+                                                        qu'est implémentée la logique du système et ses règles de
+                                                        gestion. Ce niveau protège les données d'un accès direct par les
+                                                        clients
+                                                    </li>
+                                                    <br>
+                                                    <li class="text-justify">
+                                                        3. Couche d'accès aux données : couche responsable de la gestion
+                                                        des données. Cette couche permet de rendre l'accès aux données
+                                                        transparente (uniforme) quelle que soit la méthode utilisée pour
+                                                        les stocker (fichier, base de données...).
+                                                    </li>
+                                                </ul>
+                                                </p>
+                                                <div class="d-flex justify-content-center">
+                                                    <img src="../assets/img/diapo-faille-securite/couches-appli.png"
+                                                         height="260px">
+                                                </div>
+                                                <br>
+                                                <h4 class="text-center" id="item-9">- Principales failles d'une
+                                                    application web -</h4>
+
+                                                <h5 class="text-center" id="item-9-1">Owasp</h5>
+                                                <p class="text-justify">OWASP (Open Web Application Security Project)
+                                                    est un guide de
+                                                    sécurisation des applications web, c’est un « ouvrage » de référence
+                                                    des bonnes/mauvaises pratiques de développement, d’une base sérieuse
+                                                    en termes de statistiques, et d’un ensemble de ressources amenant à
+                                                    une base de réflexion sur la sécurité.
+                                                    La Fondation OWASP est entrée en ligne le 1er décembre 2001. Elle a
+                                                    été créée en tant qu'organisation caritative à but non lucratif aux
+                                                    Etats-Unis le 21 avril 2004 pour assurer la disponibilité et le
+                                                    soutien continu de notre travail à l' OWASP. Les Valeurs
+                                                    fondamentales d’OWASP sont :<br>
+                                                <ul>
+                                                    <li class="text-justify"> OUVERT - Tout à OWASP est radicalement
+                                                        transparent de nos
+                                                        finances
+                                                        à notre code.
+                                                    </li>
+                                                    <br>
+                                                    <li class="text-justify"> INNOVATION - OWASP encourage et soutient
+                                                        l'innovation et les
+                                                        expériences pour trouver des solutions aux problèmes de sécurité
+                                                        logicielle.
+                                                    </li>
+                                                    <br>
+                                                    <li class="text-justify"> GLOBAL - Partout dans le monde les
+                                                        informaticiens sont
+                                                        encouragés
+                                                        à participer à la communauté OWASP.
+                                                    </li>
+                                                    <br>
+                                                    <li class="text-justify"> INTÉGRITÉ - OWASP est une communauté
+                                                        mondiale honnête et
+                                                        véridique, indépendante des fournisseurs.
+                                                    </li>
+                                                </ul>
+                                                Le but d’OWASP est de permettre à la communauté mondiale prospérer
+                                                en stimulent la visibilité et l'évolution de la sûreté et de la
+                                                sécurité des logiciels dans le monde.</p>
+                                                <h5 class="text-center" id="item-9-2">Top 10 des failles de
+                                                    sécurité</h5>
+                                                <p class="text-justify">
+                                                    L'OWASP Top 10 est un document de sensibilisation puissant pour la
+                                                    sécurité des applications Web. Il représente un large consensus sur
+                                                    les risques de sécurité les plus critiques pour les applications
+                                                    Web. Les membres du projet incluent une variété d'experts en
+                                                    sécurité du monde entier qui ont partagé leur expertise pour
+                                                    produire cette liste. L'adoption du Top 10 de l'OWASP est peut-être
+                                                    la première étape la plus efficace pour changer la culture de
+                                                    développement de logiciels au sein de votre organisation en une
+                                                    culture qui produit du code sécurisé.
+                                                <div class="d-flex justify-content-center">
+                                                    <img src="../assets/img/diapo-faille-securite/top-10.png"
+                                                         width="100%">
+                                                </div>
+                                                </p>
+                                                <br>
+                                                <h5 class="text-center" id="item-9-3">Broken Access Control N°1 des
+                                                    failles 2021</h5>
+                                                <p class="text-justify">
+                                                    Broken Access Control passe de la cinquième position à la première;
+                                                    94% des applications ont été testées pour Broken Access Control. Les
+                                                    34 énumérations de faiblesses communes (CWE) mappées au contrôle
+                                                    d'accès interrompu avaient plus d'occurrences dans les applications
+                                                    que toute autre catégorie.
+                                                    <br>- Son principe est simple, se connecter en
+                                                    falsifiant les données de connection pour avoir accès à des
+                                                    informations non accessible normalement.
+                                                    <br>- Le but pour les attaquants est d'agir en tant qu'utilisateurs
+                                                    ou administrateurs, ou utilisateurs utilisant des fonctions
+                                                    privilégiées, ou créant, accédant, mettant à jour ou supprimant
+                                                    chaque enregistrement.
+                                                </p>
+                                                <br>
+                                                <h4 class="text-center" id="item-10">- Solutions -</h4>
+                                                <p>
+                                                    Voici quelques solutions pour se prémunir des cyber-attaques :
+                                                <ul>
+                                                    <li class="text-justify">
+                                                        Utiliser des mots de passe robustes
+                                                    </li>
+                                                    <li class="text-justify">
+                                                        Toute mise à jour de contenu doit être effectuée exclusivement
+                                                        depuis un poste
+                                                        informatique maîtrisé par votre service informatique (DSI) et
+                                                        dédié à cette activité.
+                                                    </li>
+                                                    <li class="text-justify">
+                                                        Les connexions doivent être réalisées uniquement à partir d’un
+                                                        réseau maîtrisé et de
+                                                        confiance. Il est important de ne pas utiliser de réseau Wi-Fi
+                                                        ouvert ou non maîtrisé afin
+                                                        d’éviter tout risque d’interception.
+                                                        Il est important de vérifier que le site visité est légitime et
+                                                        possède une connexion sécurisée (https).
+                                                    </li>
+                                                    <li class="text-justify">
+                                                        Avoir un système d’exploitation et des logiciels à jour :
+                                                        navigateur, antivirus.
+                                                    </li>
+                                                    <li class="text-justify">Il convient de vérifier régulièrement les éléments publiés et
+                                                        prévoir une sauvegarde. En cas
+                                                        de suppression, il est possible de restaurer rapidement l’état
+                                                        préalable à l’attaque après avoir
+                                                        pris les mesures de réaction nécessaires.
+                                                    </li>
+                                                    <li class="text-justify">
+                                                        Attention, les courriels et leurs pièces jointes jouent souvent
+                                                        un rôle central dans les cyberattaques
+                                                        (courriels frauduleux, pièces jointes piégées, etc.).
+                                                    </li>
+                                                </ul>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 <br/>
 <br/>
 

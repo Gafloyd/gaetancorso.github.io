@@ -1,1 +1,4 @@
 @import "../../../bootstrap.min.css";
+.pre-scrollable{
+    max-height: 702px !important;
+}
